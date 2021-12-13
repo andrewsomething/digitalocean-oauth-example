@@ -1,0 +1,35 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DigitalOcean oAuth Example</title>
+    <meta name="description" content="An example app implementing DigitalOcean oAuth with Passport">
+    <link id="favicon" rel="icon" href="https://glitch.com/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <h1>DigitalOcean Passport Example</h1>
+    </header>
+
+    <main>
+      <p>
+        Hi! I'm an example app showing how to use <a href='https://github.com/harbur/passport-digitalocean'>Passport</a> and Node.js to authenticate with the <a href ='https://developers.digitalocean.com/documentation/oauth/'>DigitalOcean oAuth API</a>.
+      </p>
+      
+      <p>
+        Let's try logging into a DigitalOcean account by clicking the link below:
+      </p>
+
+      <a class="container" href="/auth/digitalocean">Log In with DigitalOcean</a>
+    </main>
+
+    <script src="https://button.glitch.me/button.js" data-style="glitch"></script>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+
+  </body>
+</html>
